@@ -42,7 +42,7 @@ x <- strptime(dt, "%d/%m/%Y %H:%M:%S")
 #delete old plot file if present
 if (file.exists(OUTPUT_FILE)) file.remove(OUTPUT_FILE)
 
-#Create Plot - using a background color of gray87 to attempt to match figure/unnamed-chunk-4.png
+#Create Plot - using a background color of gray87 to attempt to match figure/unnamed-chunk-5.png
 png(file=OUTPUT_FILE, width = 480, height = 480, bg="gray87")
 par(mfrow = c(2, 2))
 # Plot 1 Top Left -- Global Active Power

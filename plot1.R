@@ -22,6 +22,7 @@ gap <- days$Global_active_power
 #delete old plot file if present
 if (file.exists(OUTPUT_FILE)) file.remove(OUTPUT_FILE)
 
+#Create Plot - using a background color of gray87 to attempt to match figure/unnamed-chunk-2.png
 png(file=OUTPUT_FILE, width = 480, height = 480, bg="gray87")
 hist(gap, col="red", bg="gray", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
 dev.off()
