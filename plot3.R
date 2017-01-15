@@ -39,7 +39,7 @@ plot(x, sm1, type="l", ylab = "Energy sub metering", xlab = "")
 points(x, sm2, type = "l", col="red")
 points(x, sm3, type = "l", col="blue")
 legend("topright", 
-       lty=c(1,1), 
+       lty=1, 
        col=c("black","red", "blue"), 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 dev.off()
